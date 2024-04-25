@@ -32,9 +32,9 @@ jobs:
           api_location: "/samples/acs-to-teams-meeting/server/csharp" # Api source code path - optional
           output_location: "build" # Built app content directory - optional
           ###### End of Repository/Build Configurations ######
-          # env: # Add environment variables here
-            # REACT_APP_ACS_USER_FUNCTION: https://white-cliff-00d7ea71e.5.azurestaticapps.net/api/ACSTokenFunction
-            # REACT_APP_TEAMS_MEETING_FUNCTION: https://white-cliff-00d7ea71e.5.azurestaticapps.net/api/TeamsMeetingFunction
+          env: # add environment variables here
+            react_app_acs_user_function: https://white-cliff-00d7ea71e.5.azurestaticapps.net/api/acstokenfunction
+            react_app_teams_meeting_function: https://white-cliff-00d7ea71e.5.azurestaticapps.net/api/teamsmeetingfunction
 
 
 
